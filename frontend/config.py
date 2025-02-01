@@ -1,0 +1,1 @@
+system_message = "You are skilled assistant, capable of answering any question."
