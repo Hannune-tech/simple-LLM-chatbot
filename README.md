@@ -16,8 +16,6 @@ Key aspects:
 
 ### Cost-Effective API Usage
 - Utilizes pay-per-use pricing models from various LLM API providers
-- Sidebar display for total billing information
-- Real-time token usage and cost tracking for the current session
 
 ### Flexible Architecture
 - Frontend built with Streamlit for rapid UI development
