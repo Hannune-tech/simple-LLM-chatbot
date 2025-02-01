@@ -55,4 +55,4 @@ Contributions to enhance the chatbot's functionality or add support for new API 
 
 
 ## License
-[Specify the license under which your project is released]
+MIT License
