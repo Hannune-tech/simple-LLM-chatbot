@@ -1,16 +1,9 @@
 from fastapi import FastAPI
-# from helper import setup_logger, propagate_uvicorn_logger
 from models_api import openai_api, ollama_api
 from pydantic import BaseModel
-# import config as cfg
 import uvicorn
 from typing import List, Dict, Optional
 import os
-
-
-
-# logger = setup_logger()
-# propagate_uvicorn_logger()
 
 
 app = FastAPI()
@@ -61,5 +54,5 @@ def chat(info:post_chat):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host=os.getenv("BACKEND_IP_PORT"), port=8000, reload=True)
+    uvicorn.run("main:app", host=os.getenv("BACKEND_IP"), port=int(os.getenv("BACKEND_PORT")), reload=True)
                 
